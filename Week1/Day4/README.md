@@ -8,7 +8,7 @@ export OMP_NUM_THREADS=4
 ./hello_world
 ```
 
-* 使用OpenMP求解pi
+* 使用OpenMP求解pi
 
 ```bash
 gcc-8 -fopenmp -o solve_pi solve_pi.c
