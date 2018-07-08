@@ -12,9 +12,9 @@ int main(int argc, char** argv) {
 
     omp_set_num_threads(NUM_THREADS);
     start_time = omp_get_wtime();
-    #pragma omp parallel for reduction(+: sum)
+    #pragma omp parallel for reduction(+: sum)  //使用reduction规约
     for (int i = 1; i <= n; ++i) {
-        sum += f((i - 0.5) * dx);
+        sum += f((i - 0.5) * dx);   //将每次计算的结果规约到sum上
     }
     pi = sum * dx;
     end_time = omp_get_wtime();

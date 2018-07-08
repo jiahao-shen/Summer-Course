@@ -17,7 +17,7 @@ void main() {
     {
         int id = omp_get_thread_num();
         sum[id] = 0;
-        #pragma omp for
+        #pragma omp for //for循环制导
         for (int i = 1; i <= n; ++i) {
             sum[id] += f((i - 0.5) * dx);
         }
