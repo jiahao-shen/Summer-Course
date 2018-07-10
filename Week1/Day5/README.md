@@ -1,4 +1,4 @@
-# Day5
+# Week1-Day5
 
 * 使用SPMD编程模式编写求解pi的MPI程序
 * 编写求解pi的OpenMP程序

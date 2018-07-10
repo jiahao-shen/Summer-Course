@@ -1,4 +1,4 @@
-# Day2
+# Week1-Day2
 
 * 搭建MPICH
 * 使用MPI运行Hello World

@@ -1,4 +1,4 @@
-# Day4
+# Week1-Day4
 
 * 练习使用OpenMP实现Hello World
 
