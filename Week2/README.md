@@ -33,6 +33,19 @@ brew install maven
 
 * 下载[storm-starter](https://github.com/apache/storm/releases)(不建议下载最新版本的,若干包Download不下来,我下载的版本是1.0.4)
 
+* 修改maven仓库地址改为阿里云(配置文件地址/usr/local/Cellar/maven/@x.x.x/libexec/conf/setting.xml
+
+```xml
+<mirrors>
+  <mirror>
+    <id>alimaven</id>
+    <name>aliyun maven</name>
+    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+    <mirrorOf>central</mirrorOf>
+  </mirror>
+</mirrors>
+```
+
 * 编译部署
 
 ```bash
