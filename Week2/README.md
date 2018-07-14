@@ -31,7 +31,7 @@ storm ui
 brew install maven
 ```
 
-* 下载[storm-starter](https://github.com/apache/storm/releases)(不建议下载最新版本的,若干包Download不下来,我下载的版本是1.0.4)
+* 下载[storm-starter](https://github.com/apache/storm/releases)(不建议下载最新版本的,若干包Download不下来,我下载的版本是1.0.4)
 
 * 编译部署
 
