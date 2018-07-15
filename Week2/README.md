@@ -58,10 +58,10 @@ storm jar storm-starter-1.0.6.jar org.apache.storm.starter.WordCountTopology Wor
 
 * 刷新浏览器即可看到部署结果
 
-![alt](https://github.com/jiahao-shen/SummerProject/blob/master/Week2/storm_starter1.png)
+![alt](https://github.com/jiahao-shen/SummerProject/blob/master/Week2/storm_starter2.png)
 
 ```bash
 storm list
 ```
 
-![alt](https://github.com/jiahao-shen/SummerProject/blob/master/Week2/storm_starter2.png)
+![alt](https://github.com/jiahao-shen/SummerProject/blob/master/Week2/storm_starter1.png)
