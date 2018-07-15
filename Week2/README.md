@@ -31,7 +31,7 @@ storm ui
 brew install maven
 ```
 
-* 下载[storm-starter](https://github.com/apache/storm/releases)(不建议下载最新版本的,若干包Download不下来,我下载的版本是1.0.4)
+* 下载[storm-starter](https://github.com/apache/storm/releases)(不建议下载最新版本的,若干包Download不下来,我下载的版本是1.0.6)
 
 * 修改maven仓库地址改为阿里云(配置文件地址/usr/local/Cellar/maven/@x.x.x/libexec/conf/setting.xml
 
@@ -49,11 +49,19 @@ brew install maven
 * 编译部署
 
 ```bash
-cd storm-1.0.4/example/storm-starter
+cd storm-starter
 mvn compile     #编译
 mvn package     #打包
 cd target
-storm jar storm-starter-1.0.4.jar org.apache.storm.starter.WordCountTopology taks1      #自行替换类名
+storm jar storm-starter-1.0.6.jar org.apache.storm.starter.WordCountTopology WordCount      #自行替换类名
 ```
 
 * 刷新浏览器即可看到部署结果
+
+![alt](https://github.com/jiahao-shen/SummerProject/blob/master/Week2/storm_starter1.png)
+
+```bash
+storm list
+```
+
+![alt](https://github.com/jiahao-shen/SummerProject/blob/master/Week2/storm_starter2.png)
