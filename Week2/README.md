@@ -1,4 +1,4 @@
-# Week2-Day1
+# Week2
 
 * 安装并运行storm
 
@@ -31,7 +31,7 @@ storm ui
 brew install maven
 ```
 
-* 修改maven仓库地址改为阿里云(配置文件地址/usr/local/Cellar/maven/1.2.2/libexec/conf/setting.xml
+* 修改maven仓库地址改为阿里云(配置文件地址/usr/local/Cellar/maven/1.2.2/libexec/conf/setting.xml)
 
 ```xml
 <mirrors>
